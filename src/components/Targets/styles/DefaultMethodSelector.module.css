@@ -1,0 +1,43 @@
+.methods {
+  grid-area: methode;
+  background-color: white;
+  display: inline-flex;
+  text-align: center;
+}
+
+.methods > div {
+  margin: auto;
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+  width: 25%;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+.methods > div:hover {
+  background-color: #205067;
+  color: white;
+}
+
+.methods > div > svg {
+  font-size: 35px;
+}
+
+.methods h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.selected {
+  color: white;
+  background-color: #205067;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}

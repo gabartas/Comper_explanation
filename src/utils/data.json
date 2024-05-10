@@ -1,0 +1,944 @@
+{
+  "frameworkId": 83,
+  "frameworkName": "Programmer_en_langage_Shell",
+  "userName": "Jean-Michel Test",
+  "version" : 1,
+  "objects": [
+    {
+      "name": "Récupérer_des_données_saisies_par_lutilisateur",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Ecrire_des_scripts_interactifs"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Connaître_la_notion_de_redirection_entrée_et_sortie",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0.7
+    },
+    {
+      "name": "Afficher_le_manuel_dune_commande_Unix",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Exécuter_des_commandes_Unix"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_la_notion_de_fichier_Unix",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_la_notion_de_paramètre",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_les_paramètres_dun_script"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Afficher_la_valeur_dune_variable",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Supprimer_un_fichier_Unix",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_les_opérateurs_de_comparaison_numérique",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Exécuter_de_manière_sélective_des_commandes",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [],
+        "hasSkill": [
+          "Connaître_la_syntaxe_de_instruction_case"
+        ],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Générer_une_séquence_de_nombres",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [],
+        "hasSkill": [
+          "Connaître_la_syntaxe_de_instruction_seq"
+        ],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Renommer_un_fichier_Unix",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Manipuler_des_fichiers_Unix",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [],
+        "hasSkill": [
+          "Connaître_la_notion_de_fichier_Unix",
+          "Connaître_la_notion_de_redirection_entrée_et_sortie",
+          "Connaître_la_notion_de_droits_sous_Unix",
+          "Créer_un_fichier_Unix",
+          "Modifier_un_fichier_Unix",
+          "Supprimer_un_fichier_Unix",
+          "Renommer_un_fichier_Unix",
+          "Modifier_les_droits_dun_fichier_Unix",
+          "Afficher_le_contenu_de_un_fichier_Unix"
+        ],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0.3111111111111111
+    },
+    {
+      "name": "Connaître_la_notion_de_droits_sous_Unix",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Affecter_une_valeur_à_une_variable",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Exécuter_des_commandes_Unix",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [],
+        "hasSkill": [
+          "Connaître_les_commandes_de_base_Unix",
+          "Afficher_le_manuel_dune_commande_Unix"
+        ],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_la_syntaxe_de_instruction_while",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Répéter_des_instructions"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Substituer_une_commande_par_son_exécution",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [],
+        "hasSkill": [
+          "Connaître_le_caractère_de_substitution_de_commande",
+          "Connaître_la_syntaxe_dollar(cmd)",
+          "Connaître_la_notion_de_banalisation_de_caractères",
+          "Banaliser_un_caractère"
+        ],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0.5
+    },
+    {
+      "name": "Connaître_la_syntaxe_CrochetCrochet",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_la_syntaxe_IfThenElifElse",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Réaliser_des_calculs_arithmétiques",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [],
+        "hasSkill": [
+          "Connaître_la_notion_de_expression_arithmétique",
+          "Connaître_la_syntaxe_dollar((__))",
+          "Interpréter_de_façon_numérique_la_valeur_dune_variable"
+        ],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0.8999999999999999
+    },
+    {
+      "name": "Comparer_des_nombres",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_la_notion_de_banalisation_de_caractères",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Substituer_une_commande_par_son_exécution"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Obtenir_la_valeur_de_un_ou_plusieurs_paramètres",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_les_paramètres_dun_script"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Connaître_le_caractère_de_substitution_de_commande",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Substituer_une_commande_par_son_exécution"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_la_syntaxe_dollar(cmd)",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Substituer_une_commande_par_son_exécution"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_la_syntaxe_dollar((__))",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Réaliser_des_calculs_arithmétiques"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Connaître_la_syntaxe_de_instruction_set",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0.4
+    },
+    {
+      "name": "Modifier_la_valeur_de_une_variable",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Réaliser_des_tests_conditionnels",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [],
+        "hasSkill": [
+          "Connaître_la_syntaxe_CrochetCrochet",
+          "Connaître_les_opérateurs_logiques",
+          "Connaître_la_syntaxe_IfThenElifElse",
+          "Connaître_les_opérateurs_de_comparaison_numérique",
+          "Connaître_les_tests_détat_de_fichier",
+          "Connaître_les_opérateurs_de_comparaison_de_caractères",
+          "Comparer_des_nombres",
+          "Tester_létat_dun_fichier"
+        ],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_la_notion_de_variable",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Connaître_la_syntaxe_de_instruction_seq",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Générer_une_séquence_de_nombres"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Obtenir_la_valeur_affectée_à_une_variable",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Modifier_les_droits_dun_fichier_Unix",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Créer_un_fichier_Unix",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0.3
+    },
+    {
+      "name": "Connaître_la_notion_de_expression_arithmétique",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Réaliser_des_calculs_arithmétiques"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Manipuler_des_variables",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [],
+        "hasSkill": [
+          "Connaître_la_syntaxe_de_instruction_set",
+          "Connaître_la_notion_de_variable",
+          "Connaître_les_variables_denvironnement",
+          "Connaître_les_variables_spéciales",
+          "Affecter_une_valeur_à_une_variable",
+          "Obtenir_la_valeur_affectée_à_une_variable",
+          "Afficher_la_valeur_dune_variable",
+          "Interpréter_de_façon_numérique_la_valeur_dune_variable",
+          "Modifier_la_valeur_de_une_variable",
+          "Affecter_une_valeur_à_un_ou_plusieurs_paramètres_de_position"
+        ],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0.7799999999999999
+    },
+    {
+      "name": "Connaître_les_variables_denvironnement",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0.7
+    },
+    {
+      "name": "Modifier_un_fichier_Unix",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0.8
+    },
+    {
+      "name": "Connaître_la_syntaxe_de_instruction_for",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Répéter_des_instructions"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_la_syntaxe_de_instruction_case",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Exécuter_de_manière_sélective_des_commandes"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Répéter_des_instructions",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [],
+        "hasSkill": [
+          "Connaître_la_syntaxe_de_instruction_for",
+          "Connaître_la_syntaxe_de_instruction_while"
+        ],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Manipuler_les_paramètres_dun_script",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [],
+        "hasSkill": [
+          "Connaître_la_notion_de_paramètre",
+          "Obtenir_la_valeur_de_un_ou_plusieurs_paramètres",
+          "Connaître_les_variables_spéciales"
+        ],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Interpréter_de_façon_numérique_la_valeur_dune_variable",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables",
+          "Réaliser_des_calculs_arithmétiques"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0.7
+    },
+    {
+      "name": "Tester_létat_dun_fichier",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_les_opérateurs_logiques",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Afficher_le_contenu_de_un_fichier_Unix",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Connaître_les_opérateurs_de_comparaison_de_caractères",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_les_tests_détat_de_fichier",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_les_commandes_de_base_Unix",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Exécuter_des_commandes_Unix"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Connaître_les_variables_spéciales",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables",
+          "Manipuler_les_paramètres_dun_script"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Ecrire_des_scripts_interactifs",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [],
+        "hasSkill": [
+          "Récupérer_des_données_saisies_par_lutilisateur"
+        ],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    },
+    {
+      "name": "Affecter_une_valeur_à_un_ou_plusieurs_paramètres_de_position",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 0
+    },
+    {
+      "name": "Banaliser_un_caractère",
+      "type": "Skills",
+      "relations": {
+        "isSkillOf": [
+          "Substituer_une_commande_par_son_exécution"
+        ],
+        "hasSkill": [],
+        "isKnowledgeOf": [],
+        "hasKnowledge": [],
+        "requires": [],
+        "isRequiredBy": [],
+        "composes": [],
+        "isComposedOf": []
+      },
+      "mastery": 1
+    }
+  ]
+}

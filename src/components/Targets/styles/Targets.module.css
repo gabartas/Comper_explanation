@@ -1,0 +1,26 @@
+.targets {
+  display: grid;
+  /* grid-template:
+    "methode b"
+    "a b"
+    "a c"; */
+  grid-template:
+    "a b"
+    "a c";
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.targets > div {
+  margin: 10px;
+  box-shadow: 1px 1px 12px #555;
+}
+
+@media (max-width: 1555px) {
+  .targets {
+    grid-template:
+      "methode methode"
+      "a a"
+      "b c";
+  }
+}

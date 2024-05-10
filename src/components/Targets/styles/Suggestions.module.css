@@ -1,0 +1,457 @@
+.suggestionsContainer {
+  overflow: hidden;
+  grid-area: c;
+  width: 500px;
+  position: relative;
+  height: 385px;
+  background-color: white;
+}
+
+.suggestions {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  grid-area: c;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  background-color: white;
+}
+
+.suggestions h2{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.suggestions ol {
+  padding-inline-start: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.suggestions fieldset{
+  background-color: #c0c0c0;
+  margin:  3px;
+  width:  450px;
+}
+
+.suggestions fieldset li{
+  background-color: #ffffff;
+  width:  425px;
+}
+
+.refreshIcon {
+  background-color: rgb(212, 160, 14);
+  padding:  5px;
+  margin-left:  25px;
+  width:  15px;
+  height: 20px;
+  color: white;
+  position: relative;
+  display:  inline;
+  border-radius: 5px;
+  transition: all 0.2s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  cursor: pointer;
+}
+
+.refreshIcon:hover {
+  background-color: rgb(11, 168, 19);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.popup-content {
+  width: 200px;
+  height: 100px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popupcontent {
+  padding: 5px;
+  padding-left: 10px;
+  
+}
+
+.suggestionButton {
+  /* display: inline-block; */
+  outline: 0;
+  cursor: pointer;
+  padding: 5px 5px;
+  width: 75;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  vertical-align: right;
+  position: absolute;
+  top:  5px;
+  right:  5px;
+  float:  right;
+  border: 1px solid;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #2ea44f;
+  border-color: #1b1f2326;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color, background-color, border-color;
+  :hover {
+      background-color: #2c974b;
+      border-color: #1b1f2326;
+      transition-duration: 0.1s;
+  }
+}
+
+.sinstruireButton {
+  /* display: inline-block; */
+  outline: 0;
+  cursor: pointer;
+  padding: 5px 5px;
+  width: 75px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  vertical-align: right;
+  position: absolute;
+  top:  5px;
+  right:  5px;
+  float:  right;
+  border: 1px solid;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #2ea44f;
+  border-color: #1b1f2326;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color, background-color, border-color;
+  :hover {
+      background-color: #2c974b;
+      border-color: #1b1f2326;
+      transition-duration: 0.1s;
+  }
+}
+
+.sexercerButton {
+  /* display: inline-block; */
+  outline: 0;
+  cursor: pointer;
+  padding: 5px 5px;
+  width: 75px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  vertical-align: right;
+  position: absolute;
+  top:  5px;
+  right:  5px;
+  float:  right;
+  border: 1px solid;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #008CBA;
+  border-color: #1b1f2326;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color, background-color, border-color;
+  :hover {
+      background-color: #2c974b;
+      border-color: #1b1f2326;
+      transition-duration: 0.1s;
+  }
+}
+
+.suggestionItem {
+  padding: 0px 5px;
+  margin: 3px;
+  /*list-style-type: none;*/
+  list-style-position: inside;
+  list-style-type:  decimal;
+
+  box-sizing: border box;
+  width:  400px;
+  box-shadow: 1px 1px 4px #555;
+  margin-left:  10px;
+  /*margin: 3px;*/
+  position: relative;
+  font-weight: 500;
+
+  border-color: #000000;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 10px;
+  min-height: 40px;
+}
+
+.titleObj:link, .titleObj:hover, .titleObj:active, .titleObj:visited{
+  /*font-size:  11px;*/
+  display:  inline;
+  
+  font-size: 1.17em;
+  font-weight: 700;
+  font-family: "Roboto";
+  color:  #000000;
+}
+
+.titleObj svg{
+  position: absolute;
+  top:  0px;
+  left:  0px;
+}
+
+.titleObj p{
+  margin-left: 15px;
+}
+
+/*
+.titleObj:hover b{
+  text-decoration: underline;
+  text-decoration-style: double;
+}*/
+
+.objText{
+  display: inline;
+}
+
+.explanationButton{
+  width:  20px;
+  height: 20px;
+  cursor:  help;
+}
+
+.title{
+  font-size: 13px;
+  overflow:  hidden;
+  text-overflow: ellipsis;
+  /*white-space: nowrap;*/  
+  vertical-align: middle;
+  width:  290px;
+
+  display: inline-block;
+}
+
+.weight{
+  display: inline;
+  font-size:  13px;
+  /*visibility: hidden;*/
+}
+
+.linkToRessource {
+  text-decoration: none;
+  background-color: rgb(212, 160, 14);
+  color: white;
+  padding: 3px;
+  position: absolute;
+  top:  25%;
+  right:  5px;
+  float:  right;
+
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.linkToRessource:last-child:hover {
+  background-color: rgb(1, 155, 103);
+}
+
+/*Properties for show hide pure css in recommendations*/
+.lBtn{
+    position: relative;
+}
+.lBtn>a:first-child,.lBtn>a:first-child+a{
+   cursor: pointer;
+   text-decoration: none;
+}
+.lBtn>a:first-child+a+*{
+   /*position: absolute;*/
+   width: 20rem;
+   display: none;/*This style can set transparency, height, etc. to transform, with CSS3 transition, to achieve a more beautiful effect, here only function*/
+}
+
+/*alone*/
+.lBtn>a:first-child{
+   display: inline;
+}
+.lBtn>a:first-child+a{
+   display: none;
+}
+/*----- For your convenience, you can write it out separately, and you can make CSS group merge when practical application ----*/
+.lBtn>a:first-child:target{
+   display: none;
+}
+.lBtn>a:first-child:target+a{
+   display: inline;
+}
+.lBtn>a:first-child:target+a+*{
+   display: inline;/*Here you need matching with properties set above*/
+}
+.lBtn div{
+  margin-top: 5px;
+}
+
+/* for the appearence of 1 recommendation objective*/
+.unaff{
+  display: none;
+}
+
+.aff{
+  display: inline-block;
+}
+
+/*
+============================================ WAITING ANIMATION ============================================
+*/ 
+.loader {
+  margin-left: 15px;
+  border: 8px solid #ffffff;
+  border-radius: 100%;
+  border-top: 8px solid #000000;
+  width: 20px;
+  height: 20px;
+  animation: spinner 1.5s linear infinite;
+}
+
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/*
+============================================ TOOLTIPS ============================================
+*/
+
+/**************/
+
+/* Tooltip container */
+.tooltip {
+  display: inline;
+  cursor:  help;
+}
+
+/* Tooltip text */
+.tooltiptext {
+  visibility: hidden;
+
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  padding: 15px;
+  border-radius: 6px;
+  display:  inline;
+
+  /* Position the tooltip text under the element*/
+  position: absolute;
+  top:  -5em;
+  left:  5%;
+  /*float:  right;*/
+
+  /* Fade in tooltip */
+  opacity: 1;
+  z-index:  999;
+
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover{
+  text-underline:  1px solid black;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+/* For explanation */
+.explanationBlock{
+  float:  right;
+}
+
+.closeButton{
+  float: right;
+  vertical-align: top;
+  width:  50px;
+  height:  50px;
+}
+
+.closeButton:hover{
+  color:  red;
+}
+
+.message p{
+  font-size: 12px;
+  text-align:  left;
+}
+.message {
+  visibility: hidden;
+
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 6px;
+  display:  inline;
+
+  position: absolute;
+  top:  0px;
+  right:  0px;
+
+  /* Fade in tooltip */
+  opacity: 1;
+  z-index:  999;
+
+  cursor:  move;
+}
+
+.message svg{
+  position : absolute;
+  top:  5px;
+  right: 5px;
+}
+
+.expl_resource, .expl_node, .expl_objective{
+  font-weight: 1000;
+  color:  #6495ED;
+}
+
+.btn_div {
+  text-align: center;
+  border: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.btn {
+  background-color: #61ba5e;
+  border: none;
+  border-radius: 5px;
+  width: 350px;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  cursor:pointer;
+  display: flex;
+  justify-content:center;
+  text-align:center;
+}

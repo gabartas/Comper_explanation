@@ -1,0 +1,2918 @@
+{
+  "name": "Programmer_en_langage_Shell_V16112020",
+  "objects": [
+    {
+      "name": "Afficher_la_valeur_dune_variable",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Obtenir_la_valeur_affectée_à_une_variable",
+          "Connaître_la_notion_de_variable"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:742",
+          "asker:743",
+          "asker:744"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Affecter_une_valeur_à_un_ou_plusieurs_paramètres_de_position",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_variable"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:993",
+          "asker:1009"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Modifier_la_valeur_de_une_variable",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Affecter_une_valeur_à_une_variable"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:736",
+          "asker:749",
+          "asker:716"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Renommer_un_fichier_Unix",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_fichier_Unix"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:762",
+          "asker:1007"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Affecter_une_valeur_à_une_variable",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_variable"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:736",
+          "asker:749",
+          "asker:716"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Tester_létat_dun_fichier",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_les_tests_détat_de_fichier"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:998",
+          "asker:999"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Créer_un_fichier_Unix",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_fichier_Unix"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:739",
+          "asker:741"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Afficher_le_manuel_dune_commande_Unix",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Exécuter_des_commandes_Unix"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:990",
+          "asker:1002"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Modifier_les_droits_dun_fichier_Unix",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_fichier_Unix",
+          "Connaître_la_notion_de_droits_sous_Unix"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:738",
+          "asker:733",
+          "asker:734",
+          "asker:1000"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Afficher_le_contenu_de_un_fichier_Unix",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_fichier_Unix"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:991",
+          "asker:1001"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Modifier_un_fichier_Unix",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_fichier_Unix"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:992",
+          "asker:1005",
+          "asker:1004"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Obtenir_la_valeur_affectée_à_une_variable",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_variable"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:748",
+          "asker:742",
+          "asker:743",
+          "asker:735"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Comparer_des_nombres",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_les_opérateurs_de_comparaison_numérique"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:994",
+          "asker:995",
+          "asker:1020"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Récupérer_des_données_saisies_par_lutilisateur",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Ecrire_des_scripts_interactifs"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:758",
+          "asker:759",
+          "asker:761",
+          "asker:756"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Obtenir_la_valeur_de_un_ou_plusieurs_paramètres",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_les_paramètres_dun_script"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_paramètre"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:751",
+          "asker:744",
+          "asker:745"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Banaliser_un_caractère",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Substituer_une_commande_par_son_exécution"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_banalisation_de_caractères"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:747",
+          "asker:748",
+          "asker:746"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Supprimer_un_fichier_Unix",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_fichier_Unix"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:760",
+          "asker:1006"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Interpréter_de_façon_numérique_la_valeur_dune_variable",
+      "type": "Skills",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [
+          "Manipuler_des_variables"
+        ],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_variable"
+        ],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:754",
+          "asker:755",
+          "asker:756"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_les_opérateurs_de_comparaison_numérique",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:comparaisonsnumeriques"
+        ],
+        "hasTraining": [
+          "asker:995"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_notion_de_redirection_entrée_et_sortie",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:shellesunix"
+        ],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_les_commandes_de_base_Unix",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Exécuter_des_commandes_Unix"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:shellcmdbasefichiers",
+          "webtraffic:shellcmdnano",
+          "webtraffic:shellcmdtouch"
+        ],
+        "hasTraining": [
+          "asker:757",
+          "asker:1003"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_syntaxe_dollar(cmd)",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Substituer_une_commande_par_son_exécution"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:substitutioncommandedollarparenthese"
+        ],
+        "hasTraining": [
+          "asker:1014"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_notion_de_droits_sous_Unix",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:shelldroitsunix"
+        ],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_notion_de_banalisation_de_caractères",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Substituer_une_commande_par_son_exécution"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:shellbanalisationchar"
+        ],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_les_variables_denvironnement",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Manipuler_des_variables"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:shellvariablesenv",
+          "asker:752",
+          "asker:756"
+        ],
+        "hasTraining": [
+          "asker:1010"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_syntaxe_de_instruction_case",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Exécuter_de_manière_sélective_des_commandes"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:instructioncase"
+        ],
+        "hasTraining": [
+          "asker:1028",
+          "asker:1029"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_syntaxe_de_instruction_seq",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Générer_une_séquence_de_nombres"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:instructionseq"
+        ],
+        "hasTraining": [
+          "asker:1030",
+          "asker:1031"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_le_caractère_de_substitution_de_commande",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Substituer_une_commande_par_son_exécution"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [],
+        "hasTraining": [
+          "asker:749",
+          "asker:754",
+          "asker:755"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_syntaxe_IfThenElifElse",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:syntaxeifthenelif"
+        ],
+        "hasTraining": [
+          "asker:1027",
+          "asker:1026"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_syntaxe_de_instruction_set",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Manipuler_des_variables"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:commandeset"
+        ],
+        "hasTraining": [
+          "asker:1012",
+          "asker:993"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_notion_de_variable",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Manipuler_des_variables"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:shellobtentionaffectation",
+          "webtraffic:shellnotionvariable",
+          "webtraffic:shellaffectation"
+        ],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_syntaxe_de_instruction_while",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Répéter_des_instructions"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:instructionwhile"
+        ],
+        "hasTraining": [
+          "asker:1018",
+          "asker:1019"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_notion_de_paramètre",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Manipuler_les_paramètres_dun_script"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:shellarguments"
+        ],
+        "hasTraining": [
+          "asker:751"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_syntaxe_dollar((__))",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Réaliser_des_calculs_arithmétiques"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:syntaxedollarparentheseparenthese"
+        ],
+        "hasTraining": [
+          "asker:1013"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_les_opérateurs_de_comparaison_de_caractères",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:comparaisonschaines"
+        ],
+        "hasTraining": [
+          "asker:997"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_notion_de_fichier_Unix",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Manipuler_des_fichiers_Unix"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:shellnotionfichier"
+        ],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_syntaxe_CrochetCrochet",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:syntaxecrochetcrochet"
+        ],
+        "hasTraining": [
+          "asker:1020",
+          "asker:1021"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_les_variables_spéciales",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Manipuler_les_paramètres_dun_script",
+          "Manipuler_des_variables"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "asker:745",
+          "webtraffic:shellvariablesspeciales"
+        ],
+        "hasTraining": [
+          "asker:750",
+          "asker:751",
+          "asker:1008"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_syntaxe_de_instruction_for",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Répéter_des_instructions"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:instructionfor"
+        ],
+        "hasTraining": [
+          "asker:1016",
+          "asker:1017"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_la_notion_de_expression_arithmétique",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Réaliser_des_calculs_arithmétiques"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Banaliser_un_caractère"
+        ],
+        "hasLearning": [
+          "webtraffic:shellexpressionarithmetique"
+        ],
+        "hasTraining": [
+          "asker:754",
+          "asker:755"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_les_opérateurs_logiques",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [
+          "webtraffic:operateurslogiques"
+        ],
+        "hasTraining": [
+          "asker:1023",
+          "asker:1022"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Connaître_les_tests_détat_de_fichier",
+      "type": "Knowledge",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Connaître_la_notion_de_fichier_Unix",
+          "Connaître_la_notion_de_droits_sous_Unix"
+        ],
+        "hasLearning": [
+          "webtraffic:testsetatfichier"
+        ],
+        "hasTraining": [
+          "asker:1024",
+          "asker:998"
+        ],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Exécuter_des_commandes_Unix",
+      "type": "Competency",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [
+          "Afficher_le_manuel_dune_commande_Unix"
+        ],
+        "hasKnowledge": [
+          "Connaître_les_commandes_de_base_Unix"
+        ],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Manipuler_des_fichiers_Unix",
+      "type": "Competency",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [
+          "Modifier_les_droits_dun_fichier_Unix",
+          "Afficher_le_contenu_de_un_fichier_Unix",
+          "Modifier_un_fichier_Unix",
+          "Renommer_un_fichier_Unix",
+          "Supprimer_un_fichier_Unix",
+          "Créer_un_fichier_Unix"
+        ],
+        "hasKnowledge": [
+          "Connaître_la_notion_de_fichier_Unix",
+          "Connaître_la_notion_de_redirection_entrée_et_sortie",
+          "Connaître_la_notion_de_droits_sous_Unix"
+        ],
+        "isComposedOf": [],
+        "requires": [
+          "Exécuter_des_commandes_Unix"
+        ],
+        "hasLearning": [],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Manipuler_les_paramètres_dun_script",
+      "type": "Competency",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [
+          "Obtenir_la_valeur_de_un_ou_plusieurs_paramètres"
+        ],
+        "hasKnowledge": [
+          "Connaître_la_notion_de_paramètre",
+          "Connaître_les_variables_spéciales"
+        ],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Manipuler_des_variables",
+      "type": "Competency",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [
+          "Afficher_la_valeur_dune_variable",
+          "Obtenir_la_valeur_affectée_à_une_variable",
+          "Affecter_une_valeur_à_un_ou_plusieurs_paramètres_de_position",
+          "Modifier_la_valeur_de_une_variable",
+          "Interpréter_de_façon_numérique_la_valeur_dune_variable",
+          "Affecter_une_valeur_à_une_variable"
+        ],
+        "hasKnowledge": [
+          "Connaître_les_variables_spéciales",
+          "Connaître_les_variables_denvironnement",
+          "Connaître_la_notion_de_variable",
+          "Connaître_la_syntaxe_de_instruction_set"
+        ],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Ecrire_des_scripts_interactifs",
+      "type": "Competency",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [
+          "Récupérer_des_données_saisies_par_lutilisateur"
+        ],
+        "hasKnowledge": [],
+        "isComposedOf": [],
+        "requires": [
+          "Manipuler_des_fichiers_Unix",
+          "Manipuler_des_variables",
+          "Manipuler_les_paramètres_dun_script",
+          "Substituer_une_commande_par_son_exécution",
+          "Répéter_des_instructions",
+          "Réaliser_des_tests_conditionnels",
+          "Exécuter_de_manière_sélective_des_commandes",
+          "Générer_une_séquence_de_nombres"
+        ],
+        "hasLearning": [],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Réaliser_des_calculs_arithmétiques",
+      "type": "Competency",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [
+          "Connaître_la_syntaxe_dollar((__))",
+          "Connaître_la_notion_de_expression_arithmétique"
+        ],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Substituer_une_commande_par_son_exécution",
+      "type": "Competency",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [
+          "Banaliser_un_caractère"
+        ],
+        "hasKnowledge": [
+          "Connaître_la_syntaxe_dollar(cmd)",
+          "Connaître_la_notion_de_banalisation_de_caractères",
+          "Connaître_le_caractère_de_substitution_de_commande"
+        ],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Répéter_des_instructions",
+      "type": "Competency",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [
+          "Connaître_la_syntaxe_de_instruction_for",
+          "Connaître_la_syntaxe_de_instruction_while"
+        ],
+        "isComposedOf": [],
+        "requires": [
+          "Manipuler_des_variables",
+          "Manipuler_les_paramètres_dun_script",
+          "Substituer_une_commande_par_son_exécution",
+          "Réaliser_des_tests_conditionnels"
+        ],
+        "hasLearning": [],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Réaliser_des_tests_conditionnels",
+      "type": "Competency",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [
+          "Comparer_des_nombres",
+          "Tester_létat_dun_fichier"
+        ],
+        "hasKnowledge": [
+          "Connaître_les_opérateurs_de_comparaison_de_caractères",
+          "Connaître_les_opérateurs_de_comparaison_numérique",
+          "Connaître_la_syntaxe_CrochetCrochet",
+          "Connaître_les_opérateurs_logiques",
+          "Connaître_la_syntaxe_IfThenElifElse",
+          "Connaître_les_tests_détat_de_fichier"
+        ],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Exécuter_de_manière_sélective_des_commandes",
+      "type": "Competency",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [
+          "Connaître_la_syntaxe_de_instruction_case"
+        ],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    },
+    {
+      "name": "Générer_une_séquence_de_nombres",
+      "type": "Competency",
+      "mastery": 0,
+      "trust": 1,
+      "cover": 1,
+      "relations": {
+        "isSkillOf": [],
+        "isKnowledgeOf": [],
+        "composes": [],
+        "hasSkill": [],
+        "hasKnowledge": [
+          "Connaître_la_syntaxe_de_instruction_seq"
+        ],
+        "isComposedOf": [],
+        "requires": [],
+        "hasLearning": [],
+        "hasTraining": [],
+        "isComplexificationOf": [],
+        "isLevelOfUnderstandingOf": []
+      },
+      "evaluationResult": []
+    }
+  ],
+  "resources": [
+    {
+      "id": "asker:742",
+      "name": "Obtenir la valeur affectée à une variable (1)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 2,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, affectez la valeur de la variable PWD à la variable repCourant. Vérifiez la valeur de repCourant.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:743",
+      "name": "Afficher la valeur d'une variable",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 2,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, affichez la valeur de la variable LOGNAME.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:744",
+      "name": "Obtenir la valeur d'un paramètre (1)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 2,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez ll'instruction 'set un ensemble de parametres' (sans les quotes). Affichez ensuite la valeur du 2ème paramètre.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:993",
+      "name": "Affecter une valeur à un paramètre de position",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez la commande qui permet d'affecter la valeur first_param au paramètre de position $1.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1009",
+      "name": "Affecter une valeur à plusieurs paramètres de position",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez la commande qui permet d'affecter la valeur first_param au paramètre de position $1, et la valeur second_param au paramètre de position $2.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:736",
+      "name": "Affecter une valeur à une variable",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, affectez la valeur 'ceci est une valeur de variable' à la variable nommée str.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:749",
+      "name": "Affecter le résultat d'une commande à une variable",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 3,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, placez-vous dans votre home directory et affectez le résultat de la commande `wc -l .profile` à la variable nbLignes.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:716",
+      "name": "Affecter une valeur à une variable",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 2,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, affectez la valeur 123 à la variable nommée nbr.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:762",
+      "name": "Renommer un fichier ou répertoire Unix",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 3,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez la commande qui permet de renommer le répertoire 'Musique' de votre home directory, en 'Music'.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1007",
+      "name": "Renommer un fichier ou répertoire Unix",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez la commande qui permet de renommer le répertoire 'Vidéos' de votre home directory, en 'Images', en préservant le répertoire 'Images' s'il existe déjà.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:998",
+      "name": "Tester l'état d'un fichier (1)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de la commande 'test', testez si le fichier nommé .profile existe et est accessible en écriture.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:999",
+      "name": "Tester l'état d'un fichier (2)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de la commande 'test', testez si le fichier nommé .bashrc existe et est accessible en lecture.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:739",
+      "name": "Créer un fichier Unix (1)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 2,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, créez un fichier vide nommé ficvide.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:741",
+      "name": "Créer un fichier Unix (2)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 2,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, créez un fichier nommé ficnonvide contenant 'ceci est le contenu du fichier'.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:990",
+      "name": "Afficher le manuel d'une commande Unix (1)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, afficher le manuel de la commande chmod.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1002",
+      "name": "Afficher le manuel d'une commande Unix (2)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, afficher le manuel de la commande man.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:738",
+      "name": "Modifier les droits d'un fichier Unix (1)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, en utilisant la notation avec des lettres, modifiez les droits de votre home directory afin que seul l'utilisateur etu puisse s'y positionner.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:733",
+      "name": "Modifier les droits d'un fichier Unix (2)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 2,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, en utilisant la notation octale, modifiez les droits du répertoire Images de votre home directory afin que le groupe puisse ajouter de nouvelles images.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:734",
+      "name": "Modifier les droits d'un fichier Unix (3)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, en utilisant la notation octale, modifiez les droits du répertoire Musique de votre home directory et de ses sous-répertoires, afin que tous les utilisateurs puissent ajouter de nouvelles chansons.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1000",
+      "name": "Modifier les droits d'un fichier Unix (4)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, en utilisant la notation avec des lettres, ajouter le droit de lecture au groupe sur le fichier .bash_history de votre home directory.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:991",
+      "name": "Afficher le contenu d'un fichier Unix (1)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de la commande cat, affichez le contenu du fichier .bash_history de votre home directory.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1001",
+      "name": "Afficher le contenu d'un fichier Unix (2)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, sans utiliser la commande cat, afficher le contenu du fichier /etc/passwd.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:992",
+      "name": "Modifier un fichier Unix (1)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction permettant de concaténer (c'est-à-dire de mettre bout-à-bout) le contenu des fichiers /etc/hostname et /etc/passwd dans le fichier /tmp/concat.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1005",
+      "name": "Modifier un fichier Unix (2)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez la commande 'touch myfile1' pour créer un fichier vide, puis ajoutez quelques lignes à ce fichier à l'aide de la commande cat.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1004",
+      "name": "Modifier des fichiers Unix (3)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez la commande 'nano myfile2' pour créer le fichier myfile2, ajoutez-y quelques lignes et enregistrez les modifications. A l'aide de la commande cat, ajoutez quelques lignes à ce fichier.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:748",
+      "name": "Banaliser un caractère (1)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 3,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de la commande echo et sans utiliser les guillemets, affichez le message 'le caractère # permet de commenter une ligne de code'.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:735",
+      "name": "Obtenir la valeur affectée à une variable (2)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 2,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, affectez la valeur de la variable LANG à la variable langueOS. Vérifiez la valeur de langueOS.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:994",
+      "name": "Comparer 2 nombres (1)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de la commande test, exécutez l'instruction exacte permettant de tester si le nombre n1 est inférieur au nombre n2.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:995",
+      "name": "Comparer 2 nombres (2)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de la commande test, exécutez l'instruction exacte permettant de tester si le nombre x1 est supérieur ou égale au nombre x2.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1020",
+      "name": "Comparer 2 nombres (3)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de la commande test, exécutez l'instruction exacte permettant de tester si le nombre z1 est égal au nombre z2.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:758",
+      "name": "Récupérer des données saisies par l'utilisateur (1)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 3,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez la commande exacte permettant d'affecter une chaîne de caractères saisies par l'utilisateur à la variable respuser.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:759",
+      "name": "Récupérer des données saisies par l'utilisateur (2)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 3,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez la commande exacte permettant d'affecter TROIS chaînes de caractères saisies par l'utilisateur aux variables respuser1, respuser2 et respuser3.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:761",
+      "name": "Les options de la commande read",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 4,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez la commande permettant d'afficher le message 'Saisissez votre prénom : ' à l'utilisateur, puis d'affecter la chaîne de caractères saisie à la variable prenom.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:756",
+      "name": "Connaître les instructions principales",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 4,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction exacte permettant d'afficher l'ensemble des variables d'environnement.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:751",
+      "name": "Obtenir la valeur d'un paramètre (2)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 3,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction 'set les params de la fonction' (sans les guillemets), puis affichez la valeur du 3ème paramètre.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:745",
+      "name": "Obtenir le nombre de paramètres",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 2,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction 'set les params de la fonction' (sans les guillemets), puis affichez le nombre de paramètres de la commande set.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:747",
+      "name": "Banaliser un caractère (2)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 3,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de la commande echo et sans utiliser les guillemets, exécutez l'instruction exacte permettant d'afficher le message <le caractère ' permet d'encadrer une chaîne de caractères>.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:746",
+      "name": "Banaliser un caractère (3)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 2,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de la commande echo et sans utiliser les guillemets, exécutez l'instruction exacte permettant d'afficher le message 'le caractère > permet de rediriger la sortie standard'.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:996",
+      "name": "Comparer des chaînes de caractères (1)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de la commande test, exécutez l'instruction exacte permettant de savoir si la chaîne de caractères ch1 est égale à la chaîne de caractères ch2.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1021",
+      "name": "Comparer des chaînes de caractères (2)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de la commande test, exécutez l'instruction exacte permettant de savoir si la chaîne de caractères ch1 est de longueur 0.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:997",
+      "name": "Comparer des chaînes de caractères (3)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de la commande test, exécutez l'instruction exacte permettant de savoir si la chaîne de caractères ch1 est différente de la chaîne de caractères ch2.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:760",
+      "name": "Supprimer un fichier Unix (1)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction 'touch myfile1', puis supprimez le fichier qui vient d'être créé.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1006",
+      "name": "Supprimer un fichier Unix (2)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction 'mkdir mydir1', puis supprimez le répertoire qui vient d'être créé.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:754",
+      "name": "Interpréter de manière numérique la valeur d'une variable (1)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction 'nb=2' (sans les guillemets), puis affichez le résultat de l'opération nb+nb.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:755",
+      "name": "Interpréter de manière numérique la valeur d'une variable (2)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 3,
+      "typicalLearningTime": 4,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction 'num=2' (sans les guillemets), puis affichez le résultat de l'opération num*num.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:comparaisonsnumeriques",
+      "name": "Comparaisons numériques",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "tr",
+      "location": "https://telexplicability.irit.fr/ComparaisonsNumeriques.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellesunix",
+      "name": "Entrées/sorties sous Unix",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 8,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/ESUnix.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:757",
+      "name": "Connaître les commandes de base Unix (1)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 4,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction exacte permettant de lister tous les fichiers et répertoires (y compris les fichiers cachés) du répertoire courant.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1003",
+      "name": "Connaître les commandes de base Unix (2)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction exacte permettant d'afficher la valeur du répertoire courant.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellcmdbasefichiers",
+      "name": "Commandes de base pour la manipulation de fichiers",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 10,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/CmdBase01.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellcmdnano",
+      "name": "L'éditeur Nano",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/Nano.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellcmdtouch",
+      "name": "Commande pour la création d'un fichier vide",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 2,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/CmdTouch.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:1014",
+      "name": "Substitution de commandes (1)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction exacte permettant d'affecter à la variable resworkdir le résultat de l'exécution de la commande pwd. Vous ne devez pas utiliser le caractère `.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:substitutioncommandedollarparenthese",
+      "name": "Substitution de commandes (2)",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "traffic.irit.fr",
+      "location": "https://telexplicability.irit.fr/SubstitutionCommandeDollarParenthese.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shelldroitsunix",
+      "name": "Notion de droits sous Unix",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 6,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/DroitsUnix.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellbanalisationchar",
+      "name": "Banaliser un caractère (4)",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 3,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/BanalisationChar.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:1010",
+      "name": "Connaître les variables d'environnement (1)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction exacte permettant d'afficher la valeur de votre home directory.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellvariablesenv",
+      "name": "Connaître les variables d'environnement (2)",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/VariablesEnv.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:752",
+      "name": "Connaître les variables d'environnement (3)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 2,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction exacte permettant de lister toutes les variables du Shell.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1028",
+      "name": "Connaître la syntaxe de l'instruction case (1)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Créez un script recoCase1.sh qui demande à l'utilisateur de saisir une chaîne de caractères et qui, à l'aide de l'instruction case, affiche OK si l'utilisateur a saisi 'oui' et PASOK sinon.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1029",
+      "name": "Connaître la syntaxe de l'instruction case (2)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Créez un script recoCase2.sh qui demande à l'utilisateur de saisir une chaîne de caractères et qui, à l'aide de l'instruction case, affiche OK si l'utilisateur a saisi 'oui' et PASOK si l'utilisateur a saisi 'non'.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:instructioncase",
+      "name": "Connaître la syntaxe de l'instruction case (3)",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "traffic.irit.fr",
+      "location": "https://telexplicability.irit.fr/InstructionCase.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:1030",
+      "name": "Connaître la syntaxe de l'instruction seq (1)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 3,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de l'instruction seq, exécutez l'instruction exacte permettant d'afficher la suite de chiffres entre 3 et 9.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1031",
+      "name": "Connaître la syntaxe de l'instruction seq (2)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 3,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, à l'aide de l'instruction seq, exécutez l'instruction exacte permettant d'afficher les chiffres impairs compris entre 3 et 9.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:instructionseq",
+      "name": "Connaître la syntaxe de l'instruction seq (3)",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "traffic.irit.fr",
+      "location": "https://telexplicability.irit.fr/InstructionSeq.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:1027",
+      "name": "Connaître la syntaxe conditionnelle if (1)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Créez un script Shell recoIf1.sh qui affiche 'Nombre de paramètres correct' si le script est appelé avec 2 paramètres, et 'Nombre de paramètres incorrect' sinon.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1026",
+      "name": "Connaître la syntaxe conditionnelle if (2)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Créez un script Shell recoIf2.sh qui affiche 'Nombre de paramètres correct' si le script est appelé avec 2 paramètres, 'Nombre de paramètres insuffisant' si le script est appelé avec moins de 2 paramètres, et 'Nombre de paramètres trop important' sinon.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:syntaxeifthenelif",
+      "name": "Connaître la syntaxe conditionnelle if (3)",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "traffic.irit.fr",
+      "location": "https://telexplicability.irit.fr/SyntaxeIfThenElif.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:1012",
+      "name": "Connaître la syntaxe de l'instruction set (1)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction exacte permettant d'affecter le résultat de la commande 'ls -l .profile' aux paramètres positionnels.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:commandeset",
+      "name": "Connaître la syntaxe de l'instruction set (2)",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "traffic.irit.fr",
+      "location": "https://telexplicability.irit.fr/CommandeSet.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellobtentionaffectation",
+      "name": "Obtenir la valeur affectée à une variable",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 3,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/ObtentionAffichage.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellnotionvariable",
+      "name": "Notion de variable en Shell",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/NotionVariable.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellaffectation",
+      "name": "Affecter une valeur à une variable",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 2,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/Affectation.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:1018",
+      "name": "Connaître la syntaxe de l'instruction while (1)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Créez un script Shell recoWhile1.sh qui, en utilisant une boucle while, affiche la valeur d'un compteur tant qu'elle est inférieur à 10. Le compteur devra être initialisé à 0 avant la boucle.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1019",
+      "name": "Connaître la syntaxe de l'instruction while (2)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 3,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Créez un script Shell recoWhile2.sh qui, à l'aide d'une boucle while, demande à l'utilisateur de saisir 31 et qui continue tant que l'utilisateur saisit autre chose.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:instructionwhile",
+      "name": "Connaître la syntaxe de l'instruction while (3)",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "traffic.irit.fr",
+      "location": "https://telexplicability.irit.fr/InstructionWhile.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellarguments",
+      "name": "Paramètres positionnels",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 3,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/Arguments.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:1013",
+      "name": "Connaître la syntaxe $(()) - 1",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, en utilisant la syntaex $((...)), exécutez l'instruction exacte permettant d'affecter à la variable resop le résultat de l'opération 3 * 2.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:syntaxedollarparentheseparenthese",
+      "name": "Connaître la syntaxe $(()) - 2",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "traffic.irit.fr",
+      "location": "https://telexplicability.irit.fr/SyntaxeDollarParentheseParenthese.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:comparaisonschaines",
+      "name": "Comparaisons de chaines de caractères",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "traffic.irit.fr",
+      "location": "https://telexplicability.irit.fr/ComparaisonChaineCaracteres.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellnotionfichier",
+      "name": "Notion de fichier sous Unix",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 12,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/NotionFichier.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:syntaxecrochetcrochet",
+      "name": "Connaître la syntaxe []",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "traffic.irit.fr",
+      "location": "https://telexplicability.irit.fr/SyntaxeCrochetCrochet.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:750",
+      "name": "Connaître les variables spéciales (1)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 4,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, affichez le code de retour de la dernière commande que vous avez exécutée.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1008",
+      "name": "Connaître les variables spéciales (2)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez la commande 'xclock&' puis affichez, à l'aide d'une variable spéciale, le numéro du processus xclock lancé en arrière plan. A l'aide la commande kill et de l'option -9, tuez ensuite ce processus.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellvariablesspeciales",
+      "name": "Connaître les variables spéciales (3)",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/VarSpeciales.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:1016",
+      "name": "Connaître la syntaxe de l'instruction for (1)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Créez un script Shell recoFor1.sh qui, à l'aide d'une boucle for, affiche les chiffres de 0 à 10.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1017",
+      "name": "Connaître la syntaxe de l'instruction for (2)",
+      "interactivityType": "active",
+      "learningResourceType": "fill-in",
+      "significanceLevel": 2,
+      "difficulty": 3,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Créez un script Shell recoFor2.sh qui, à l'aide d'une boucle for, affiche le contenu du répertoire .config situé dans votre home directory.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:instructionfor",
+      "name": "Connaître la syntaxe de l'instruction for (3)",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "traffic.irit.fr",
+      "location": "https://telexplicability.irit.fr/InstructionFor.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:shellexpressionarithmetique",
+      "name": "Expressions arithmétiques en Shell",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 1,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "Serveur web traffic",
+      "location": "https://telexplicability.irit.fr/ExpressionArithmetique.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:1023",
+      "name": "Connaître les opérateurs logiques (1)",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 1,
+      "difficulty": 2,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, affectez la valeur 2 à la variable n. A l'aide de l'instruction test, tester si la valeur de n est égale à 0 ou 2. Si oui, alors affichez 'n est égal à 0 ou 2'.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "asker:1022",
+      "name": "Connaître les opérateurs logiques (2)",
+      "interactivityType": "active",
+      "learningResourceType": "matching",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, affectez la valeur 3 à la variable n. A l'aide de l'instruction test, tester si la valeur de n est supérieur à 0 et inférieure à 4. Si oui, alors affichez 'n est compris entre 0 et 4'.",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:operateurslogiques",
+      "name": "Connaître les opérateurs logiques (3)",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "traffic.irit.fr",
+      "location": "https://telexplicability.irit.fr/OperateursLogiques.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    },
+    {
+      "id": "asker:1024",
+      "name": "Connaître les tests d'état de fichier",
+      "interactivityType": "active",
+      "learningResourceType": "choice",
+      "significanceLevel": 2,
+      "difficulty": 3,
+      "typicalLearningTime": 5,
+      "learningPlatform": "asker",
+      "location": "Dans votre terminal, exécutez l'instruction exacte permettant de savoir si le fichier .profil de votre home directory existe et est accessible en écriture. Si oui, alors affichez le message 'profil existant et modificable'",
+      "author": "ext_Julien.Broisin",
+      "language": "fr",
+      "generative": true,
+      "text": ""
+    },
+    {
+      "id": "webtraffic:testsetatfichier",
+      "name": "Programmation Shell - tests état fichier",
+      "interactivityType": "expositive",
+      "learningResourceType": "text",
+      "significanceLevel": 2,
+      "difficulty": 1,
+      "typicalLearningTime": 5,
+      "learningPlatform": "traffic.irit.fr",
+      "location": "https://telexplicability.irit.fr/TestsEtatFichier.pdf",
+      "author": "Julien Broisin",
+      "language": "fr",
+      "generative": false,
+      "text": ""
+    }
+  ],
+  "colors": [
+    "0.25",
+    "0.5",
+    "0.75"
+  ],
+  "computedAt": {
+    "date": "2022-04-12 00:00:00.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "frameworkId": 83,
+  "frameworkName": "Programmer_en_langage_Shell",
+  "userName": "Jean-Michel Test",
+  "version": 1
+}
